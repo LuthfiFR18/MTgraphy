@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Playfair+Display:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <title>MTgraphy</title>
+</head>
+
+<body>
+    <header>
+        <div class="nav-phone">
+            <div>
+                <a href="./index.html" id="logo">MTgraphy</a>
+                <div class="menu-icon">
+                    <img src="../icon/close.png" alt="menu" onclick="toggleNav()">
+                </div>
+            </div>
+            <div class="search-bar-phone">
+                <input type="text" placeholder="Search Something...">
+                <a href="#" class="search-icon"><img src="../icon/search-interface-symbol.png" alt="search"></a>
+            </div>
+            <div class="nav-menu">
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./gallery.html">Gallery</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                    <li><a href="./about us.html">About Us</a></li>
+                    <li><a href="./subscribe.html">Subscribe</a></li>
+                </ul>
+            </div>
+        </div>
+        <nav>
+            <a href="./index.html" id="logo">MTgraphy</a>
+            <div class="nav-menu">
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./gallery.html">Gallery</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                    <li><a href="./about us.html">About Us</a></li>
+                    <li><a href="./subscribe.html">Subscribe</a></li>
+                </ul>
+            </div>
+            <div class="search-bar">
+                <div>
+                    <input type="text" placeholder="Search something..." class="search-text">
+                    <a href="#" class="search-icon"><img src="../icon/search-interface-symbol.png" alt="search"></a>
+                </div>
+            </div>
+            <div class="menu-icon">
+                <img src="../icon/menu.png" alt="menu" onclick="toggleNav()">
+            </div>
+        </nav>
+
+        <h1 id="gallery-title">ABOUT US</h1>
+        <p class="opening-p-gallery">Find out about our company and the founders of our company.</p>
+    </header>
+
+    <content class="content-about-us">
+        <div class="about-founders-title">
+            <div class="line"></div>
+            <div>
+                <h3>MATTHEW & THOMAS</h3>
+            </div>
+            <div class="line"></div>
+        </div>
+
+        <div class="about-founders-content">
+            <div class="founders-card">
+                <div>
+                    <img src="../img/Founder - matthew-min.jpg" alt="">
+                </div>
+                <div>
+                    <p>Matthew and Thomas have been close friends since childhood. Since childhood, they have always
+                        been
+                        interested in the world of photography. They accumulated savings and bought their first camera
+                        at
+                        the age of 11. Since then, they are increasingly interested in the world of photography and
+                        decided
+                        to become photographers.
+                    </p>
+                </div>
+            </div>
+            <div class="founders-card">
+                <div id="swap-p">
+                    <p>Starting as a hobby, then they finally decided to create a photography service company, called
+                        MTgraphy, where 'M' stands for matthew and 'T' stands for Thomas.
+                    </p>
+                </div>
+                <div id="swap-img">
+                    <img src="../img/Founder - thomas-min.jpg" alt="">
+                </div>
+            </div>
+            <div class="founders-card">
+                <div>
+                    <p><span class="semi-logo">MTgraphy</span> has been established since 2010, and has served more than
+                        8000 customers from various countries, such as Indonesia, Singapore and Malaysia.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <h2>DESCRIPTION</h2>
+        <div class="description">
+            <div class="description-card">
+                <h1>WHAT DO WE DO?</h1>
+            </div>
+            <div class="description-card">
+                <p>We sell photography services. We accept orders for photography with any theme depending on the
+                    customer's wishes. Customers can immediately do a photography session after ordering a predetermined
+                    schedule.
+                    We have a photography team of more than 1,000 people with each having at least 5 years of experience
+                    in the field of photography. We also have senior members who have been doing photography for more
+                    than 10 years.</p>
+            </div>
+        </div>
+    </content>
+
+    <footer>
+        <div>
+            <div class="footer-content">
+                <div>
+                    <h2>Quick Links</h2>
+                    <ul>
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./gallery.html">Gallery</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h2>More</h2>
+                    <ul>
+                        <li><a href="./about us.html">About Us</a></li>
+                        <li><a href="./subscribe.html">Subscribe</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h2>Contact</h2>
+                    <ul>
+                        <li><a href="./contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h2>Visit Us On</h2>
+                    <div id="ftr-visit-us">
+                        <a href="https://www.instagram.com/jonathan.aaronn/">
+                            <span><img src="../icon/instagram.png"></span>
+                            Instagram
+                        </a>
+                        <a href="https://twitter.com/f27d96b268564e1">
+                            <span><img src="../icon/twitter.png"></span>
+                            Twitter
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p>Copyrights © MTgraphy 2022 Professional Photography Company</p>
+    </footer>
+    <script src="../JavaScript/script.js"></script>
+</body>
+
+</html>
